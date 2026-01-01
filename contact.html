@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>التواصل - مكتبة النور</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eaeaea;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            width: 320px;
+            margin: auto;
+            border-radius: 8px;
+        }
+        label, input, select, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2 align="center">📞 التواصل مع مكتبة النور</h2>
+
+<form>
+    <label>الاسم:</label>
+    <input type="text" required>
+
+    <label>البريد الإلكتروني:</label>
+    <input type="email" required>
+
+    <label>اختر الكتاب:</label>
+    <select>
+        <option>كتاب بايثون</option>
+        <option>كتاب HTML</option>
+        <option>مئة عام من العزلة</option>
+        <option>عداء الطائرة الورقية</option>
+        <option>رياض الصالحين</option>
+        <option>الأعظم</option>
+    </select>
+
+    <label>نوع الطلب:</label>
+    <select>
+        <option>شراء</option>
+        <option>استعارة</option>
+        <option>استفسار</option>
+    </select>
+
+    <label>رسالتك:</label>
+    <textarea rows="4"></textarea>
+
+    <button type="submit">إرسال</button>
+</form>
+
+</body>
+</html>
